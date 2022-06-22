@@ -1,0 +1,37 @@
+/*pre definições */
+body{background-color: #fff; font-family: sans-serif;}
+
+main{text-align: center;}
+main a {text-decoration: none;color: #0095f6;}
+.container-login{border: rgb(135, 135, 135) solid 1px; padding: 1em; color: rgb(86, 86, 86); margin: 1em; }
+.ftPerfil img{width: 5em;}
+.login{display: inline-block; margin:2em;}
+
+
+/* container*/
+.ftPerfil img{margin: 2em; border-radius: 50%;}
+
+.continuarComo{color: white; background-color: #0095f6; border-radius: 5px; padding: 0.5em; margin: 5em;}
+.removerConta{ display: flex; justify-content: center; margin-top: 2em;}
+.obterApp {width: 9em;}
+
+/*footer*/
+footer{color: rgb(166, 166, 166);}
+footer ul{list-style-type: none; text-align: center; }
+footer li{display: inline-block; margin: 0.3em 1em;}
+.infoFooter{display:flex; margin:1em; justify-content: center;}
+.infoFooter p{margin: 0 2em;}
+
+/* media queries */
+@media (max-width: 1024px){
+    .celularprint{display: none;}
+}
+
+
+@media (max-width: 650px){
+    .container-login{border: none;}
+    .continuarComo{margin: 0;}
+    .login{margin:0;}
+}
+
+
